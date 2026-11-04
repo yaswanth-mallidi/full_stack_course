@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+    <head>
+
+        <STYLE>
+            body
+            {  display:grid;
+                grid-template-columns: auto auto auto;
+              grid-template-areas: 
+                      "header header header"
+                       "nav article article"
+                       "adds a1 a1"
+                       "footer footer footer";
+                       background-color:black;
+ }
+          header
+            {
+                grid-area:header;
+                background-color: white;
+                position:relative;
+                border:10px solid tomato;
+            }
+
+            nav
+            {
+                grid-area:nav;
+                background-color: white;
+                color:turquoise;
+                 border:10px solid tomato;
+
+               
+            }
+            nav ul {
+                display:flex;
+                justify-content:space-evenly;
+                align-content:center;
+            }
+          article
+          {
+              grid-area:article;
+              background-color: white;
+              color:bisque;
+               border:10px solid tomato;
+              
+          }
+
+
+            #adds
+            {
+                grid-area:adds;
+                background-color: white;
+                color:thistle;
+                 border:10px solid tomato;
+                
+            }
+            #a1
+            {
+                grid-area:a1;
+                background-color: white;
+                color:tomato;
+                border:10px solid tomato;
+            }
+            footer
+            {
+                grid-area:footer;
+                background-color: white;
+                color:violet;
+                border:10px solid tomato;
+            }
+        </STYLE>
+
+    </head>
+    <body>
+        <header>
+            <p>welcome all</p>
+
+            <marquee><h1>welcome to my website </h1></marquee>
+          
+        </header>
+        <nav>
+            <ul>
+                <li>home</li>
+                <li>about us </li>
+                    <li> contract us</li>
+                    <li> resources</li>
+                    <li>login</li>
+                    </ul>
+        </nav>
+        <ARTICLE>
+
+            <p> lorem 1000</p>
+        </ARTICLE>
+
+        <div id="adds">
+           <p> THE WORLD IS NICE the hello world </p>
+        </div>
+        <article id="a1">
+        
+
+
+
+            <p> lorem 1000</p>
+        </article>
+
+        <FOOTER>
+            <P>@CPPYRIGTH THIS IS A GENUINE WEBSITE </P>
+        </FOOTER>
+
+        
+
+        
+    </body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            my test 2
+        </title>
+        <style>
+            body
+            {
+                margin:0px;
+                border:0px;
+            }
+            #home 
+            {
+                list-style-type:none;
+                display:flex;
+                justify-content:space-between;
+                padding:0 ,10px;
+                
+
+            }
+            #header
+            {
+              border-radius:10px;
+                height:100px;
+                background-color:navajowhite;
+
+            }
+            #cotation
+            {
+                text-align:center;
+            }
+            table
+            {
+                border:10px solid black;
+                border-collapse:collapse;
+                width:100%;
+
+            }
+            table th,td
+            {
+                border:1px solid black;
+                text-align:center;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div id="header">
+            <h1 id="cotation">welcome to my bank</h1>
+            <ul id="home">
+                
+                <li><a href="{{url_for('home')}}">home</a></li>
+                <li><a href='#'>login</a></li>
+                <li><a href=''>register</a></li>
+                <li><a href='#'>about us</a></li>
+                <li><a href='default.html'> contract us </a></li>
+                </ul>
+        </div>
+        <table>
+            <tr>
+                <th>Bank Detail of users</th>
+            </tr>
+            <tr>
+                <th>Bank name</th>
+                <th>userame</th>
+                <th>account number</th>
+                <th>accont blances</th>
+                <th>deposite amount</th>
+            </tr>
+            <tr>
+                <td>sbi bank</td>
+                <td>yash</td>
+                <td>123456789</td>
+                <td>50000</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>icici bank</td>
+                <td>shash</td>
+                <td>123456789</td>
+                <td>50000</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>hdfc bank</td>
+                <td>ram</td>
+                <td>123456789</td>
+                <td>50000</td>
+                <td>10000</td>
+                </tr>
+                <tr>
+                    <td>hdfc bank</td>
+                    <td>ram</td>
+                    <td>123456789</td>
+                    <td>50000</td>
+                    <td>10000</td>
+                </tr>
+                <tr>
+                    <td>hdfc bank</td><td>ram</td><td>123456789</td><td>50000</td><td>10000</td>
+                </tr>
+
+        </table>
+      
+
+    </body>
+</html>
