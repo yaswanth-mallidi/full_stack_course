@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+              <!-- forth question-->
+           const role=prompt('role');
+           const pwd=prompt('password1');
+
+           if(role=='admin' && pwd=='admin')
+           {
+           
+            console.log('admin login sucuessfully');
+          
+           
+
+           }
+             else if(role=='manger' && pwd=='manger')
+           {
+            
+            console.log('manger login sucuessfully');
+           
+           }
+           else{
+            console.log('invalid person enterd');
+           }
+            
+        </script>
+
+    </head>
+    <body>
+        <h1> login admin or the manger</h1>
+        <form>
+            <br>
+            <lable for="role" > Role of Adminstrator</lable>
+            <br>
+            <input type="test" id="role" name="role">
+            <br>
+            <lable for="password">password</lable>
+            <br>
+            <input type="password" id="password1" name="password">
+            <br>
+            <button type="submit" >submit</button>
+        </form>
+
+    </body>
+</html>
