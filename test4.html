@@ -1,0 +1,114 @@
+<!Doctype html>
+<html>
+    <head>
+        <style>
+        form{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            align-items:center;
+            color:antiquewhite;
+            
+            overflow:scroll;
+           
+
+        }
+        body{
+            background-image:url('C:/Users/Rishi/Desktop/yaswanth/full_stack_course/test/pexels-steve-29612112.jpg');
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        </style>
+        
+
+    </head>
+    <body>
+        <h1>singup this website </h1>
+        <form action="/singup" method="Get">
+
+            <div>
+            <lable id="firstname">firstname</lable>
+            <br>
+            <input type="text" name="firstname" for="firstname" placeholder="firstname"><br>
+            </div>
+            <div>
+            <lable id="middlename">middlename</lable>
+            <br>
+            <input type="text" name="middlename" for="middlename" placeholder="middlename"><br>
+            </div>
+            <div>
+            <lable id="lastname">lastname</lable>
+            <br>
+            <input type="text" name="lastname" for="lastnamename" placeholder="lastname"><br>
+            </div>
+            <div>
+            <lable id="date_of_birth">entre your date of brith</lable>
+            <br>
+            <input type="date" name="date_of_birth" for="date_of_birth" placeholder="date_of_birth"><br>
+            </div>
+            <div>
+            <lable id="fathername">FatherName</lable>
+            <br>
+            <input type="text" name="fathername" for="fathername" placeholder="FatherName"><br>
+            <lable id="mothername">Mothername</lable>
+            <br>
+            <input type="text" name="mothername" for="mothername" placeholder="Mothername"><br>
+            </div>
+            <div>
+            <lable id="email">email</lable>
+            <br>
+            <input type="email" name="email" for="email" placeholder="email"><br>
+            <lable id="phonenumber">phonenumber</lable>
+            <br>
+            <input type="Phonenumber" name="firstname" for="firstname" placeholder="phonenumber"><br>
+            
+            <br>
+            </div>
+            <div>
+                <h4>gender</h4>
+            <input type="radio" name="gender" id="male" value="male">
+            <lable for="male" >male</lable>
+            <br>
+            
+            <input type="radio" name="gender" id="female" value="female">
+            <lable for="gender">female</lable>
+            <br>
+            <h4>disability_person</h4>
+            <input type="radio" name="disablity" id="Yes" value="yes">
+            <lable for="disability">Yes</lable>
+            <input type="radio" name="disablity" id="No" value="No">
+            <lable for="disablity" >No</lable>
+            </div>
+
+            <div>
+            <lable for="AC_no"> Aadhar card no </lable>
+            <input type="text" name="Aadhar card no" id="AC_no"><br>
+            <br>
+            <div>
+            
+
+            <h4>Add the profile photo</h4>
+            <lable for="profile_photo">Add photo</lable>
+            <input type="file" id="profile_photo" name="profile_photo" >
+            </div>
+            <div>
+
+            <h4>Add the resume</h4>
+            <lable for="resume">resume</lable>
+            <br>
+            <input type="file" id="resume" name="resume">
+            </div>
+            <br>
+            <br>
+            <br>
+            <div>
+
+            <button type="submit">singup</button>    <button type="reset">reset</button>
+            </div>
+            
+
+
+
+        </form>
+    </body>
+</html>
