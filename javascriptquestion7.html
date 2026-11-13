@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a =parseInt(prompt('enter the number'));
+        let b=parseInt(prompt('enter the number'));
+
+        function add(a,b)
+        {
+            return a+b;
+        }
+
+        console.log(add(a,b));
+
+        function even_odd(c)
+        {
+            if(c%2==0)
+        {
+            console.log("it  is  a even nnumber");
+        }
+        else
+        {
+            console.log("it  is  a odd number");
+        }
+        }
+        let  c=parseInt(prompt('enter the number to check the even and the odd number'));
+        even_odd(c);
+
+        function greatest_number(a,b,c)
+        {
+            if(a>b && a>c)
+        {
+            console.log(" first number is the gratest number");
+        }
+
+        else if(b>c)
+        {
+            console.log("second number is the greatest number");
+        }
+        else {
+            console.log("last number is the gratest number");
+        }
+        }
+
+       let d1=parseInt(prompt('enter the number 1 for the compare the three nnumber'));
+      let  d2=parseInt(prompt('enter the number 2 for the compare the three nnumber'));
+      let  d3=parseInt(prompt('enter the number 3 for the compare the three nnumber'));
+
+        greatest_number(d1,d2,d3);
+
+        function factorial(e)
+        {
+            
+            if(e<=1)
+        {
+            return 1;
+        }
+        return e*factorial(e-1);
+        }
+        e=parseInt(prompt('enter the factorial number'));
+
+        console.log(factorial(e));
+
+        function reverseString(str)
+        {
+            let a="";
+            for(let i=0;i<str.length;i++)
+        {
+
+            a+=str[str.length-i-1];
+        }
+        return a;
+
+        }
+
+       let str=prompt('enter the string to the reverse the string ')
+
+        console.log(reverseString(str));
+        function countvolwes(str1)
+        {
+        let s=str1.toLowerCase();
+        let count_volwes=0;
+        for(let i=0;i<str1.length;i++)
+        {
+            if(s[i]=='a' || s[i]=='e' || s[i]=='i'|| s[i]=='o'||s[i]=='u')
+        {
+            count_volwes++;
+        }
+
+        }
+        return count_volwes;
+        }
+
+        let str1=prompt('enter the string to count the vowle number');
+
+        console.log(countvolwes(str1));
+
+        
+
+
+
+    </script>
+    
+</body>
+</html>
